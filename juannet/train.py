@@ -5,7 +5,7 @@ Here's a function that can train a neural net
 from juannet.tensor import Tensor
 from juannet.nn import NeuralNet
 from juannet.loss import Loss, MSE
-from juannet.optimizer import Optimizer, SGD
+from juannet.optim import Optimizer, SGD
 from juannet.data import DataIterator, BatchIterator
 
 

@@ -9,7 +9,7 @@ inputs -> Linear -> Tanh -> Linear -> output
 import numpy as np
 from typing import Dict, Callable
 
-from juannet.Tensor import Tensor
+from juannet.tensor import Tensor
 
 class Layer:
     def __init__(self) -> None:
