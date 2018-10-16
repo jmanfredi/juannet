@@ -26,6 +26,8 @@ targets = np.array([
     ])
 
 net = NeuralNet([
+    Linear(input_size=2, output_size=2),
+    Tanh(),
     Linear(input_size=2, output_size=2)
     ])
 
